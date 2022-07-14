@@ -1,15 +1,12 @@
 import streamlit as st
+import pandas
 
-st.title('Island Recipes')
-st.header('Huli-huli Chicken 🍗 Marinade')
-st.write('2 tsp sesame oil')
-st.write('1 tsp ginger')
-st.write('2 garlic cloves 🧄🧄')
-st.write('1/3 cup soy sauce')
-st.write('1 tbsp rice vinegar')
-st.write('1/4 cup brown sugar')
-st.write('1/4 cup ketchup')
-st.write('1/2 tsp smoked paprika')
-st.write('1/3 cup water 🚰')
-st.write('1 tbsp cornstarch')
-st.write('2 lbs chicken thighs 🍗 🍗')
+my_fruit_list = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
+streamlit.dataframe(my_fruit_list)
+
+st.title('Breakfast Favorites')
+st.write('🥣Omega 3 & Blueberry Oatmeal')
+st.write('🥬kale, Spinach & Rocket Smoothie')
+st.write('🥚Hard-Boiled Free-Range Egg')
+st.write('🥑🍞Avocado Toast')
+
