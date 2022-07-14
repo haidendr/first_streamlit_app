@@ -1,3 +1,15 @@
-import streamlit
+import streamlit as st
 
-streamlit.title('My Kids New Healthy Diner')
+st.title('Island Recipes')
+st.header('Huli-huli Chicken Marinade')
+st.write('2 tsp seasame oil')
+st.write('1 tsp ginger')
+st.write('2 garlic cloves')
+st.write('1/3 cup soy sauce')
+st.write('1 tbsp rice vinegar')
+st.write('1/4 cup brown sugar')
+st.write('1/4 cup ketchup')
+st.write('1/2 tsp smoked paprika')
+st.write('1/3 cup water')
+st.write('1 tbsp cornstarch')
+st.write('2 lbs chicken thighs')
